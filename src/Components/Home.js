@@ -25,8 +25,8 @@ function Home() {
 
                 <div className="home__row">
                     {/* Product */}
-                    <Product title="Boy's Sf Drift Cat 5 Ultra Jr Sneakers"
-                        image="https://m.media-amazon.com/images/I/71sJ6nOrPzL._AC_UL320_.jpg"    
+                    <Product title="Boy's Sf Drift Cat 5 Ultra Jr Sneakers "
+                        image="https://images-na.ssl-images-amazon.com/images/I/71s0%2BHg5aXL._UL1500_.jpg"    
                         price={20}
                         rating={3}
                     />

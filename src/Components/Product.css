@@ -13,12 +13,15 @@
 
 .product > img{
     width: 100%;
+    height:200px;
     max-height: 200px;
     object-fit: contain;
     margin-bottom:15px;
 }
 
 .product__info{
+ display:flex;
+ flex-direction:column;
  height: 100px;   
  margin-bottom:15px;
 }
