@@ -1,5 +1,6 @@
 .checkoutProduct{
     display:flex;
+    margin-top: 10px;
 }
 
 .checkoutProduct__info{
@@ -22,4 +23,9 @@
     color:black;
     border: 1px solid; 
     border-color: #a88734 #9c7e31 #846a29;
+}
+
+.checkoutProduct__info{
+    font-weight: 800;
+    font-size: 16px;
 }
