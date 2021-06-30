@@ -20,7 +20,13 @@ function Checkout() {
                         Your shopping basket
                     </h2>
 
-                    {basket?.map((bucket)=><CheckoutProduct />)}
+                    {basket?.map((bucket)=><CheckoutProduct 
+                        id={bucket.id}
+                        title={bucket.title}
+                        image={bucket.image}
+                        price={bucket.price}
+                        rating={bucket.rating}
+                    />)}
                     {/* CheckoutProduct */}
                     {/* CheckoutProduct */}
                     {/* CheckoutProduct */}
