@@ -42,6 +42,7 @@
     display:flex;
     justify-content:space-evenly;
     color: white;
+
 }
 
 .header__option{
@@ -49,15 +50,19 @@
     margin-left: 10px;
     margin-right: 10px;
     flex-direction:column;
+    color:white;
+    
 }
 
 .header__optionLineOne{
     font-size: 10px;
+    text-decoration: none;
 }
 
 .header__optionLineTwo{
     font-size: 13px;
     font-weight: 800;
+    text-decoration: none;
 }
 
 .header__optionBasket{
