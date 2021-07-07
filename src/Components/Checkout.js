@@ -28,10 +28,6 @@ function Checkout() {
                         price={bucket.price}
                         rating={bucket.rating}
                     />)}
-                    {/* CheckoutProduct */}
-                    {/* CheckoutProduct */}
-                    {/* CheckoutProduct */}
-                    {/* CheckoutProduct */}
 
                 </div>
 
